@@ -5,9 +5,6 @@
         <genAiFunctionName>AnswerQuestionsWithKnowledge_16jg5000000Dldp</genAiFunctionName>
     </localActionLinks>
     <localTopicLinks>
-        <genAiPluginName>Find_Flight_16jg5000000Dldp</genAiPluginName>
-    </localTopicLinks>
-    <localTopicLinks>
         <genAiPluginName>show_menu_16jg5000000Dldp</genAiPluginName>
     </localTopicLinks>
     <localTopicLinks>
@@ -79,67 +76,6 @@
         <masterLabel>show_menu</masterLabel>
         <pluginType>Topic</pluginType>
         <scope>Show menu</scope>
-    </localTopics>
-    <localTopics>
-        <fullName>Find_Flight_16jg5000000Dldp</fullName>
-        <canEscalate>false</canEscalate>
-        <description>Handles user requests to search for and book flights, including providing options based on user preferences.</description>
-        <developerName>Find_Flight_16jg5000000Dldp</developerName>
-        <genAiPluginInstructions>
-            <description>Ask the user for their travel details, such as departure and destination locations, dates, and any preferences like class or airlines.</description>
-            <developerName>instruction_1</developerName>
-            <language xsi:nil="true"/>
-            <masterLabel>Instruction 1</masterLabel>
-            <sortOrder>0</sortOrder>
-        </genAiPluginInstructions>
-        <genAiPluginInstructions>
-            <description>Use the provided flight search tool to find options matching the user&apos;s preferences.</description>
-            <developerName>instructions_0_1769141040819</developerName>
-            <language>en_US</language>
-            <masterLabel>instructions_0_1769141040819</masterLabel>
-            <sortOrder>1</sortOrder>
-        </genAiPluginInstructions>
-        <genAiPluginInstructions>
-            <description>Present the available flight options clearly, including key details such as price, duration, and layovers.</description>
-            <developerName>instructions_1_1769141040825</developerName>
-            <language>en_US</language>
-            <masterLabel>instructions_1_1769141040825</masterLabel>
-            <sortOrder>2</sortOrder>
-        </genAiPluginInstructions>
-        <genAiPluginInstructions>
-            <description>If the user is unsure of their preferences, ask clarifying questions to narrow down options.</description>
-            <developerName>instructions_2_1769141040825</developerName>
-            <language>en_US</language>
-            <masterLabel>instructions_2_1769141040825</masterLabel>
-            <sortOrder>3</sortOrder>
-        </genAiPluginInstructions>
-        <genAiPluginInstructions>
-            <description>Offer to assist with booking the selected flight or provide additional information if requested.</description>
-            <developerName>instructions_3_1769141040825</developerName>
-            <language>en_US</language>
-            <masterLabel>instructions_3_1769141040825</masterLabel>
-            <sortOrder>4</sortOrder>
-        </genAiPluginInstructions>
-        <language>en_US</language>
-        <localActionLinks>
-            <functionName>Find_Flights_179g5000000Gf2P</functionName>
-        </localActionLinks>
-        <localActions>
-            <fullName>Find_Flights_179g5000000Gf2P</fullName>
-            <description>Use this action when the user provides an origin city, destination city, and travel date to find available flights.</description>
-            <developerName>Find_Flights_179g5000000Gf2P</developerName>
-            <invocationTarget>FlightAgent</invocationTarget>
-            <invocationTargetType>apex</invocationTargetType>
-            <isConfirmationRequired>false</isConfirmationRequired>
-            <isIncludeInProgressIndicator>true</isIncludeInProgressIndicator>
-            <localDeveloperName>Find_Flights</localDeveloperName>
-            <masterLabel>Find Flights</masterLabel>
-            <progressIndicatorMessage>Searching for available flights…</progressIndicatorMessage>
-        </localActions>
-        <localDeveloperName>Find_Flight</localDeveloperName>
-        <masterLabel>Find Booking</masterLabel>
-        <pluginType>Topic</pluginType>
-        <scope>Your job is only to assist users in finding flights by gathering their preferences, searching for suitable flight options, and providing relevant details. Do not handle unrelated inquiries or tasks outside flight booking.</scope>
     </localTopics>
     <masterLabel>agent01</masterLabel>
     <plannerActions>
