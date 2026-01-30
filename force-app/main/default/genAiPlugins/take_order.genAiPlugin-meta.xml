@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenAiPlugin xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <canEscalate>false</canEscalate>
+    <description>Receive the order</description>
+    <developerName>take_order</developerName>
+    <genAiFunctions>
+        <functionName>Agent_Echo_Action_179g5000000Dyw1</functionName>
+    </genAiFunctions>
+    <genAiPluginInstructions>
+        <description>Pick the user&apos;s request and call &apos;Agent Echo Action&apos; action to place the order.</description>
+        <developerName>instruction_0_1768808416864</developerName>
+        <language xsi:nil="true"/>
+        <masterLabel>instruction_0_1768808416864</masterLabel>
+        <sortOrder>0</sortOrder>
+    </genAiPluginInstructions>
+    <language>en_US</language>
+    <localDeveloperName>take_order</localDeveloperName>
+    <masterLabel>take_order</masterLabel>
+    <pluginType>Topic</pluginType>
+    <scope>Receive the order</scope>
+</GenAiPlugin>

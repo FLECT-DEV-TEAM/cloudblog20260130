@@ -1,0 +1,15 @@
+{
+  "required" : [ "input1" ],
+  "unevaluatedProperties" : false,
+  "properties" : {
+    "input1" : {
+      "title" : "input1",
+      "description" : "The user's order",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : false
+    }
+  },
+  "lightning:type" : "lightning__objectType",
+  "lightning:textIndexed" : true
+}

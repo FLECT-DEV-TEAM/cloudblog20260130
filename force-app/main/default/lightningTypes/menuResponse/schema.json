@@ -1,0 +1,5 @@
+{
+  "title": "Menu Response",
+  "description": "Hard-coded menu choices for the user to click.",
+  "lightning:type": "@apexClassType/c__MenuChoiceResponse"
+}

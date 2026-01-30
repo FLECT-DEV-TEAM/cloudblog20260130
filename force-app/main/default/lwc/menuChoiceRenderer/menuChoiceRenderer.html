@@ -1,0 +1,14 @@
+<template>
+  <template if:true={prompt}>
+    <p>{prompt}</p>
+  </template>
+
+  <template for:each={items} for:item="item">
+    <lightning-button
+      key={item}
+      label={item}
+      data-choice={item}
+      onclick={handlePick}>
+    </lightning-button>
+  </template>
+</template>
