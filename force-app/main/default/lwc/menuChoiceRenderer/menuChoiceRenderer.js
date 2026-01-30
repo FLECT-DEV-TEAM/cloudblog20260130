@@ -28,7 +28,6 @@ export default class MenuChoiceRenderer extends LightningElement {
       return;
     }
 
-    // Send Message API: sends text "as if the end user had sent it". :contentReference[oaicite:9]{index=9}
     api.sendTextMessage(choice)
       .then(() => {
         console.log(`sendTextMessage succeeded: ${choice} `);
