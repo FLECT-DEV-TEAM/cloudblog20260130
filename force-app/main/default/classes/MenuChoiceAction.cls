@@ -1,6 +1,4 @@
 public with sharing class MenuChoiceAction {
-
-    // (Optional) request wrapper. You can leave it empty and ignore it.
     public class Request {
         @InvocableVariable(label='Context')
         public String context;
